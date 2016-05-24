@@ -14,6 +14,7 @@
 		7489657D1CF4419F00AB1657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7489657B1CF4419F00AB1657 /* LaunchScreen.storyboard */; };
 		748965851CF441DA00AB1657 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 748965841CF441DA00AB1657 /* pokemon.csv */; };
 		7489658A1CF451E700AB1657 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748965891CF451E700AB1657 /* Pokemon.swift */; };
+		748965921CF4C59200AB1657 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748965911CF4C59200AB1657 /* PokeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7489657E1CF4419F00AB1657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748965841CF441DA00AB1657 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		748965891CF451E700AB1657 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		748965911CF4C59200AB1657 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		748965871CF4519500AB1657 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				748965911CF4C59200AB1657 /* PokeCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748965921CF4C59200AB1657 /* PokeCell.swift in Sources */,
 				748965751CF4419F00AB1657 /* ViewController.swift in Sources */,
 				748965731CF4419F00AB1657 /* AppDelegate.swift in Sources */,
 				7489658A1CF451E700AB1657 /* Pokemon.swift in Sources */,
@@ -318,6 +322,7 @@
 				748965831CF4419F00AB1657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
