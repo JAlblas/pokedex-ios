@@ -16,6 +16,8 @@
 		7489658A1CF451E700AB1657 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748965891CF451E700AB1657 /* Pokemon.swift */; };
 		748965921CF4C59200AB1657 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748965911CF4C59200AB1657 /* PokeCell.swift */; };
 		919B2B041CF5BC66009E7152 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B2B031CF5BC66009E7152 /* csv.swift */; };
+		919B2B081CFC61ED009E7152 /* PokemonFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 919B2B071CFC61ED009E7152 /* PokemonFont.ttf */; };
+		919B2B0A1CFC6C6C009E7152 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 919B2B091CFC6C6C009E7152 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		748965891CF451E700AB1657 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		748965911CF4C59200AB1657 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		919B2B031CF5BC66009E7152 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		919B2B071CFC61ED009E7152 /* PokemonFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonFont.ttf; sourceTree = "<group>"; };
+		919B2B091CFC6C6C009E7152 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +115,9 @@
 		919B2B061CF5BE45009E7152 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				919B2B091CFC6C6C009E7152 /* music.mp3 */,
 				748965841CF441DA00AB1657 /* pokemon.csv */,
+				919B2B071CFC61ED009E7152 /* PokemonFont.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			files = (
 				7489657D1CF4419F00AB1657 /* LaunchScreen.storyboard in Resources */,
 				7489657A1CF4419F00AB1657 /* Assets.xcassets in Resources */,
+				919B2B0A1CFC6C6C009E7152 /* music.mp3 in Resources */,
 				748965851CF441DA00AB1657 /* pokemon.csv in Resources */,
+				919B2B081CFC61ED009E7152 /* PokemonFont.ttf in Resources */,
 				748965781CF4419F00AB1657 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

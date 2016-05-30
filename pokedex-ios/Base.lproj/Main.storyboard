@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="PokemonFont.ttf">
+            <string>PokemonSolidNormal</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -22,10 +27,43 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dNo-Um-v2x">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdU-i1-cm1">
+                                        <rect key="frame" x="236" y="13" width="129" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="129" id="dVz-4O-ETo"/>
+                                            <constraint firstAttribute="height" constant="30" id="je1-oO-pDg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="25"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8w-KT-BLy">
+                                        <rect key="frame" x="560" y="13" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="PgI-dX-Zhv"/>
+                                            <constraint firstAttribute="width" constant="32" id="c0u-ZI-x9V"/>
+                                        </constraints>
+                                        <state key="normal" image="music"/>
+                                        <connections>
+                                            <action selector="musicButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kuG-0l-Npn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="O8w-KT-BLy" secondAttribute="trailing" constant="8" id="BEk-iF-4RO"/>
                                     <constraint firstAttribute="height" constant="55" id="Wof-sh-nov"/>
+                                    <constraint firstItem="O8w-KT-BLy" firstAttribute="top" secondItem="dNo-Um-v2x" secondAttribute="top" constant="13" id="bI3-69-45f"/>
+                                    <constraint firstItem="QdU-i1-cm1" firstAttribute="centerX" secondItem="dNo-Um-v2x" secondAttribute="centerX" id="iLs-VW-BEY"/>
+                                    <constraint firstAttribute="bottom" secondItem="O8w-KT-BLy" secondAttribute="bottom" constant="10" id="nAu-m7-v7D"/>
+                                    <constraint firstItem="QdU-i1-cm1" firstAttribute="centerY" secondItem="dNo-Um-v2x" secondAttribute="centerY" id="rPG-Km-f0w"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="nAu-m7-v7D"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Qo5-UD-Mac">
                                 <rect key="frame" x="20" y="119" width="560" height="461"/>
@@ -112,5 +150,6 @@
     <resources>
         <image name="419" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music" width="100" height="100"/>
     </resources>
 </document>
