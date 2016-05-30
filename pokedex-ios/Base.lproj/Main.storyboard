@@ -115,7 +115,7 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="wQ9-Mg-gH4">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search for Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="wQ9-Mg-gH4">
                                 <rect key="frame" x="0.0" y="55" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -140,6 +140,7 @@
                     </view>
                     <connections>
                         <outlet property="collection" destination="Qo5-UD-Mac" id="HkW-RG-rV3"/>
+                        <outlet property="searchBar" destination="wQ9-Mg-gH4" id="Oet-LV-IgE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
