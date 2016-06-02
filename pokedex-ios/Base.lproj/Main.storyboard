@@ -10,7 +10,6 @@
             <string>HelveticaNeue</string>
             <string>HelveticaNeue</string>
             <string>HelveticaNeue</string>
-            <string>HelveticaNeue</string>
             <string>HelveticaNeue-Bold</string>
             <string>HelveticaNeue</string>
             <string>HelveticaNeue-Bold</string>
@@ -22,6 +21,7 @@
             <string>HelveticaNeue-Bold</string>
             <string>HelveticaNeue</string>
             <string>HelveticaNeue-Bold</string>
+            <string>HelveticaNeue</string>
             <string>HelveticaNeue-Italic</string>
         </mutableArray>
         <mutableArray key="PokemonFont.ttf">
@@ -195,8 +195,8 @@
                                         <nil key="highlightedColor"/>
                                         <variation key="default">
                                             <mask key="constraints">
-                                                <exclude reference="iEW-kg-hit"/>
                                                 <exclude reference="Clr-Zc-Xx9"/>
+                                                <exclude reference="iEW-kg-hit"/>
                                             </mask>
                                         </variation>
                                     </label>
@@ -208,7 +208,7 @@
                                         </constraints>
                                         <state key="normal" image="back"/>
                                         <connections>
-                                            <action selector="backBtnPressed:" destination="3NL-pk-w6Y" eventType="touchUpInside" id="Eb0-ZI-p4k"/>
+                                            <action selector="backButtonPressed:" destination="3NL-pk-w6Y" eventType="touchUpInside" id="yk1-JY-WN4"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -443,7 +443,16 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="currentEvoImage" destination="nBI-TH-1Zb" id="ch4-ra-ati"/>
+                        <outlet property="defenseLabel" destination="Yjv-7i-rUV" id="zEu-3c-arI"/>
+                        <outlet property="descriptionLabel" destination="rJ9-jy-FCP" id="IDG-r1-Jk2"/>
+                        <outlet property="evolutionLabel" destination="HIy-Ld-Oud" id="WkU-Pc-3Et"/>
+                        <outlet property="heightLabel" destination="Bu0-jC-1cK" id="uau-YA-tn7"/>
+                        <outlet property="mainImage" destination="OPW-Uh-Wp1" id="o0e-bp-93a"/>
                         <outlet property="nameLabel" destination="kKO-bZ-bBf" id="N2y-tD-vYf"/>
+                        <outlet property="nextEvoImage" destination="Vsb-bQ-5Yz" id="nXP-96-CHF"/>
+                        <outlet property="pokedexLabel" destination="wIc-Yj-77T" id="zOc-J4-aim"/>
+                        <outlet property="typeLabel" destination="IcG-hP-OXY" id="iC1-4o-tyL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNy-dP-jYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
