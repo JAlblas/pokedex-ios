@@ -443,8 +443,9 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="baseAttackLabel" destination="YRo-rf-nKW" id="SYh-7u-iDo"/>
                         <outlet property="currentEvoImage" destination="nBI-TH-1Zb" id="ch4-ra-ati"/>
-                        <outlet property="defenseLabel" destination="Yjv-7i-rUV" id="zEu-3c-arI"/>
+                        <outlet property="defenseLabel" destination="Zis-2f-m1w" id="3RF-z0-7AX"/>
                         <outlet property="descriptionLabel" destination="rJ9-jy-FCP" id="IDG-r1-Jk2"/>
                         <outlet property="evolutionLabel" destination="HIy-Ld-Oud" id="WkU-Pc-3Et"/>
                         <outlet property="heightLabel" destination="Bu0-jC-1cK" id="uau-YA-tn7"/>
@@ -453,6 +454,7 @@
                         <outlet property="nextEvoImage" destination="Vsb-bQ-5Yz" id="nXP-96-CHF"/>
                         <outlet property="pokedexLabel" destination="wIc-Yj-77T" id="zOc-J4-aim"/>
                         <outlet property="typeLabel" destination="IcG-hP-OXY" id="iC1-4o-tyL"/>
+                        <outlet property="weightLabel" destination="v1T-Io-4dl" id="vCs-5V-cuQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eNy-dP-jYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
